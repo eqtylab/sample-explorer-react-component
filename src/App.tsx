@@ -3,7 +3,7 @@ import { useState, useRef } from 'react';
 import './App.css';
 
 function App() {
-  const [manifestJson, setManifestJson] = useState({});
+  const [manifestJson, setManifestJson] = useState(undefined);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const config = buildNodeConfig();
 
