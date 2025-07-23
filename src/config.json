@@ -1,0 +1,9 @@
+{
+    "nodeOverrides": {
+      "Code":
+        {
+            "displayType": "Code Certificate",
+            "icon": "CertificateIcon"
+        }
+  }
+}

@@ -1,11 +1,12 @@
-import { LineageExplorer, buildNodeConfig } from '@eqtylab/explorer';
+import { LineageExplorer } from '@eqtylab/explorer';
+import { loadConfig } from './customConfig';
 import { useState, useRef } from 'react';
 import './App.css';
 
 function App() {
   const [manifestJson, setManifestJson] = useState(undefined);
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const config = buildNodeConfig();
+  const config = loadConfig();
 
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
