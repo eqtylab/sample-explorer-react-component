@@ -1,4 +1,5 @@
 # Custom Config
+```
 type NodeConfig = {
     displayType: string; <- This is the text displayed in the node
     color: string; <- color of the node icon, and sidebar
@@ -17,6 +18,7 @@ type NodeSize = {
     width: number; // in px
     height: number; // in px
 }; // default is { width: 200, height: 50 }
+```
 
 
 icon - one of:
