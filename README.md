@@ -8,7 +8,7 @@ This sample application uses the EQTY [Lineage Explorer](https://explorer.eqtyla
 export GITHUB_PACKAGES_READ=<access_token>
 
 yarn install
-yarn run
+yarn run start
 ```
 
 ## Customization
