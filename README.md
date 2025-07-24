@@ -10,3 +10,7 @@ export GITHUB_PACKAGES_READ=<access_token>
 yarn install
 yarn run
 ```
+
+## Customization
+
+See [customization options](https://docs.eqtylab.io/docs/lineage-explorer-customizations/). Note that `display` and `manifests` customization does not apply to the React Component, but `nodeOverrides` is the same and the standalone application.
